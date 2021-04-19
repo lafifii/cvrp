@@ -1,0 +1,6 @@
+[
+                  {"id": 1, "license_plate": "123BC", "driver": "JUAN", "capacity": 15, "lat": -12.124499, "lng": -76.982934}, 
+                  {"id": 2, "license_plate": "12LOP6", "driver": "MANUEL", "capacity": 20, "lat": -12.124499, "lng": -76.982934}, 
+                  {"id": 3, "license_plate": "543OPC", "driver": "DANIEL", "capacity": 5, "lat": -12.124499, "lng": -76.982934}, 
+                  {"id": 4, "license_plate": "456DSC", "driver": "PIERO", "capacity": 10, "lat": -12.124499, "lng": -76.982934}
+ ]
