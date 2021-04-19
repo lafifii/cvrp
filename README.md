@@ -3,4 +3,4 @@ Vehicle routing problem (VRP) with Demand Constraints and Multiple Depots. This 
 
 +Requirements for the project are at "requirements.txt"
 
-+Notebook (ipynb) has been added with the full code so it can be clearer what each part of the project aims to do
++Colab Notebook can be found here: https://colab.research.google.com/drive/1VDqq4ygr_hU1LVg6cuaBPxJuSqPuI69p?usp=sharing 
