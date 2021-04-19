@@ -42,6 +42,7 @@ def graphic_routes(answer):
     cli+=1
     
   plt.scatter(xs, ys)  
+  plt.show()
 
 
 if __name__ == "__main__":
@@ -60,5 +61,4 @@ if __name__ == "__main__":
 
   else:
     print("No Solution")
-
 
