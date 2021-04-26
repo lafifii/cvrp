@@ -25,7 +25,7 @@ def get_route_points(lat1, lon1, lat2, lon2):
   endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
   
   origin = reverse_geo(lat1,lon1).replace(' ','+')
-  destination = reverse_geo(lat2,lon1).replace(' ','+')
+  destination = reverse_geo(lat2,lon2).replace(' ','+')
   
   nav_request = 'origin={}&destination={}&key={}'.format(origin,destination,api_key)
   request = endpoint + nav_request
@@ -46,7 +46,7 @@ def get_distance(lat1, lon1, lat2, lon2):
   endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
   
   origin = reverse_geo(lat1,lon1).replace(' ','+')
-  destination = reverse_geo(lat2,lon1).replace(' ','+')
+  destination = reverse_geo(lat2,lon2).replace(' ','+')
   
   nav_request = 'origin={}&destination={}&key={}'.format(origin,destination,api_key)
   request = endpoint + nav_request
